@@ -1,7 +1,11 @@
-"use client";
 import Head from "next/head";
+import { useState } from "react";
+import { Pagination, Text } from "@mantine/core";
 
 export default function Home() {
+  const [activePage, setPage] = useState(1);
+  const items = [<Text>hogehoge</Text>, <Text>hugahuga</Text>];
+
   return (
     <>
       <Head>
@@ -15,10 +19,14 @@ export default function Home() {
       </Head>
       <main>
         <h1>フロントエンドの楽しさ</h1>
-        
-        <p>
-          学生IT団体watnowにおける、新入生向け技術紹介LT会で用いたスライド用ページです。
-        </p>
+
+        {items[activePage - 1]}
+        <Pagination
+          total={items.length}
+          value={activePage}
+          onChange={setPage}
+          mt="sm"
+        />
       </main>
     </>
   );
