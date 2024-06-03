@@ -17,7 +17,7 @@ body {
 
 main {
   padding: 60px 0;
-  height: calc(100vh - 120px);
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -25,6 +25,7 @@ main {
 }
 
 .slide{
+  width: 100%;
   padding: 20px;
   flex-grow: 1;
   display: flex;
