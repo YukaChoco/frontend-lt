@@ -1,6 +1,6 @@
 import Head from "next/head";
 import { useState } from "react";
-import { Pagination, Text } from "@mantine/core";
+import { Box, Pagination, Text, Transition } from "@mantine/core";
 
 export default function Home() {
   const [activePage, setPage] = useState(1);
@@ -20,12 +20,30 @@ export default function Home() {
       <main>
         <h1>フロントエンドの楽しさ</h1>
 
-        {items[activePage - 1]}
+        <Box style={{ height: "100vh", width: "100vw", position: "relative" }} className="slide">
+          {items.map((item, index) => (
+            <Transition
+              key={index}
+              mounted={index === activePage - 1}
+              transition="fade"
+              duration={400}
+              timingFunction="ease"
+            >
+              {(styles) => (
+                <Box style={{ ...styles, position: "absolute" }} key={index}>
+                  {item}
+                </Box>
+              )}
+            </Transition>
+          ))}
+        </Box>
+
         <Pagination
+          p={20}
           total={items.length}
           value={activePage}
           onChange={setPage}
-          mt="sm"
+          mt="xl"
         />
       </main>
     </>
