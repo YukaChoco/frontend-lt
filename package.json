@@ -14,7 +14,7 @@
     "@mantine/core": "^7.10.1",
     "@mantine/hooks": "^7.10.1",
     "@mui/material": "^5.15.19",
-    "@splidejs/splide": "^4.1.4",
+    "@splidejs/react-splide": "^0.7.12",
     "next": "14.2.3",
     "react": "^18",
     "react-dom": "^18"
