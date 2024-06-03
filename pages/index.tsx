@@ -1,10 +1,24 @@
 import Head from "next/head";
 import { useState } from "react";
-import { Box, Pagination, Text, Transition } from "@mantine/core";
+import { Box, Pagination, Typography } from "@mui/material";
+import { Transition } from "@mantine/core";
 
 export default function Home() {
   const [activePage, setPage] = useState(1);
-  const items = [<Text>hogehoge</Text>, <Text>hugahuga</Text>];
+  const items = [
+    <Typography>hogehoge</Typography>,
+    <Typography>hugahuga</Typography>,
+    <Typography>helloWorld</Typography>,
+    <Typography>hogehoge</Typography>,
+    <Typography>hugahuga</Typography>,
+    <Typography>helloWorld</Typography>,
+    <Typography>hogehoge</Typography>,
+    <Typography>hugahuga</Typography>,
+    <Typography>helloWorld</Typography>,
+    <Typography>hogehoge</Typography>,
+    <Typography>hugahuga</Typography>,
+    <Typography>helloWorld</Typography>,
+  ];
 
   return (
     <>
@@ -20,7 +34,7 @@ export default function Home() {
       <main>
         <h1>フロントエンドの楽しさ</h1>
 
-        <Box style={{ height: "100vh", width: "100vw", position: "relative" }} className="slide">
+        <Box style={{ position: "relative" }} className="slide">
           {items.map((item, index) => (
             <Transition
               key={index}
@@ -38,12 +52,11 @@ export default function Home() {
           ))}
         </Box>
 
+        {/* pagenationでCurrentPageを表示。 */}
         <Pagination
-          p={20}
-          total={items.length}
-          value={activePage}
-          onChange={setPage}
-          mt="xl"
+          count={items.length}
+          page={activePage}
+          onChange={(_, page) => setPage(page)}
         />
       </main>
     </>
