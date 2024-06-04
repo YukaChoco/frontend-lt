@@ -2,7 +2,12 @@ import { Box, Grid, Typography } from "@mui/material";
 
 export default function IntroduceSlide() {
   return (
-    <Box textAlign={"center"} >
+    <Box
+      textAlign={"left"}
+      display={"flex"}
+      flexDirection={"column"}
+      alignItems={"center"}
+    >
       <h2>自己紹介</h2>
 
       {/* 左よせで配置 */}
@@ -40,6 +45,7 @@ export default function IntroduceSlide() {
 
         <Grid item xs>
           <img
+            className="profile-image"
             src="/profile.jpg"
             width={360}
             height={360}
