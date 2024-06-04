@@ -1,3 +1,4 @@
+import Basic from "./basic";
 import Difference from "./difference";
 import Happy from "./happy";
 import Highlights from "./highlights";
@@ -12,7 +13,6 @@ import WhatIsWebFront3 from "./whatIsWebFront3";
 
 export const slides = [
   <TitleSlide />,
-  <SlideQR />,
   <IntroduceSlide />,
   <TestOtsukare />,
   <Highlights />,
@@ -21,7 +21,8 @@ export const slides = [
   <WhatIsWebFront3 />,
   <Difference />,
   <Happy />,
-  <Slide2 />,
+  <SlideQR />,
+  <Basic />,
   <Slide2 />,
   <Slide2 />,
   <Slide2 />,

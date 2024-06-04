@@ -16,13 +16,13 @@ export default function Highlights() {
 
           <ul>
             <li>
-              <span>誰でもアクセスできる</span>
-            </li>
-            <li>
-              <span>PCでもスマホでもアクセスできる</span>
+              <span>誰でも、どのデバイスでもアクセスできる</span>
             </li>
             <li>
               <span>アップデートが簡単にできる</span>
+            </li>
+            <li>
+              <span>開発コストが低い</span>
             </li>
           </ul>
         </Box>

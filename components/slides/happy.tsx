@@ -39,10 +39,18 @@ export default function Happy() {
           <span>その他</span>
           <ul style={{ marginTop: "1rem" }}>
             <li>
-              <span>人に自慢できる</span>
+              <span
+                style={{ fontWeight: "bold", borderBottom: "1px solid white" }}
+              >
+                作りたいものを気軽に作って公開できる
+              </span>
             </li>
             <li>
-              <span>ユーザーのフィードバックをもらい、改良できる</span>
+              <span
+                style={{ fontWeight: "bold", borderBottom: "1px solid white" }}
+              >
+                人に自慢できる
+              </span>
             </li>
             <li>
               <span>可能性は無限大</span>
