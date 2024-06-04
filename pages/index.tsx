@@ -1,6 +1,6 @@
 import Head from "next/head";
 import { useState } from "react";
-import { Box, Pagination, Typography } from "@mui/material";
+import { Box, Pagination } from "@mui/material";
 import slides from "@/components/slides";
 import { Transition } from "@mantine/core";
 
