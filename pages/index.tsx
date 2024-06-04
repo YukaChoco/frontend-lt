@@ -6,7 +6,7 @@ import { Transition } from "@mantine/core";
 export default function Home() {
   const [activePage, setPage] = useState(1);
   const items = [
-    <Typography>hogehoge</Typography>,
+    <div></div>,
     <Typography>hugahuga</Typography>,
     <Typography>helloWorld</Typography>,
     <Typography>hogehoge</Typography>,
@@ -20,6 +20,10 @@ export default function Home() {
     <Typography>helloWorld</Typography>,
   ];
 
+  const titleStyle = {
+    top: activePage === 1 ? "40vh" : "0",
+  };
+
   return (
     <>
       <Head>
@@ -32,7 +36,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <h1>フロントエンドの楽しさ</h1>
+        <h1 style={titleStyle}>フロントエンドの楽しさ</h1>
 
         <Box style={{ position: "relative" }} className="slide">
           {items.map((item, index) => (
