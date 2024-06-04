@@ -70,7 +70,10 @@ span {
 	}
 }
 
-li {
+ul {
+  padding-right: 36px;
+}
+li + li {
   padding-top: 1rem;
 }
 
