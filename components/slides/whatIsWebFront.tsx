@@ -10,7 +10,7 @@ export default function WhatIsWebFront() {
     >
       <h2>Webフロントとは</h2>
       <h3>サービスづくりにおける領域</h3>
-      <Box border={2} padding={"12px 80px"} textAlign={"left"}>
+      <Box border={2} className="ul-container" textAlign={"left"}>
         <ul>
           <li>
             <span>企画</span>

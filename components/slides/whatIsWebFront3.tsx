@@ -12,7 +12,7 @@ export default function WhatIsWebFront3() {
       <br />
       <h3>フロントエンドが担当すること</h3>
 
-      <Box border={2} padding={"12px 80px"} textAlign={"left"}>
+      <Box border={2} className="ul-container" textAlign={"left"}>
         <ul>
           <li>
             <span>UIの配置</span>

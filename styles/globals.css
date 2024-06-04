@@ -77,6 +77,17 @@ li + li {
   padding-top: 1rem;
 }
 
+.ul-container {
+  padding: 12px;
+  margin: 0px 16px;
+}
+@media screen and (min-width: 480px) {
+	/* スマホ */
+	.ul-container{
+    padding: 12px 80px;
+	}
+}
+
 
 .slide{
   width: 100%;
