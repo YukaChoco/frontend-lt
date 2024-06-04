@@ -6,6 +6,7 @@ import TestOtsukare from "./testOtsukare";
 import TitleSlide from "./titleSlide";
 import WhatIsWebFront from "./whatIsWebFront";
 import WhatIsWebFront2 from "./whatIsWebFront2";
+import WhatIsWebFront3 from "./whatIsWebFront3";
 
 export const slides = [
   <TitleSlide />,
@@ -15,7 +16,7 @@ export const slides = [
   <Highlights />,
   <WhatIsWebFront />,
   <WhatIsWebFront2 />,
-  <Slide2 />,
+  <WhatIsWebFront3 />,
   <Slide2 />,
   <Slide2 />,
   <Slide2 />,
