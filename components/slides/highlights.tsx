@@ -18,7 +18,7 @@ export default function Highlights() {
           <span>Webアプリとモバイルアプリの違い</span>
         </li>
         <li>
-          <span>私的Webフロントの楽しさ</span>
+          <span>Webフロントの楽しさ</span>
         </li>
         <li>
           <span>サイトを公開してみる</span>

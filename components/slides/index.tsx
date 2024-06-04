@@ -1,4 +1,5 @@
 import Difference from "./difference";
+import Happy from "./happy";
 import Highlights from "./highlights";
 import IntroduceSlide from "./introduceSlide";
 import Slide2 from "./slide2";
@@ -19,7 +20,7 @@ export const slides = [
   <WhatIsWebFront2 />,
   <WhatIsWebFront3 />,
   <Difference />,
-  <Slide2 />,
+  <Happy />,
   <Slide2 />,
   <Slide2 />,
   <Slide2 />,
