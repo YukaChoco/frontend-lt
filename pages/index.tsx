@@ -6,7 +6,13 @@ import { Transition } from "@mantine/core";
 export default function Home() {
   const [activePage, setPage] = useState(1);
   const items = [
-    <div></div>,
+    <div>
+      {/* h1タグの幅だけ余白を作る */}
+      <Box height="5vh" />
+      <Typography pt={4} fontSize={20}>
+        watnow 4回生 藤堂 ゆうか
+      </Typography>
+    </div>,
     <Typography>hugahuga</Typography>,
     <Typography>helloWorld</Typography>,
     <Typography>hogehoge</Typography>,
@@ -21,7 +27,8 @@ export default function Home() {
   ];
 
   const titleStyle = {
-    top: activePage === 1 ? "40vh" : "0",
+    top: activePage === 1 ? "30vh" : "0",
+    fontSize: activePage !== 1 ? "2rem" : undefined,
   };
 
   return (
@@ -37,6 +44,9 @@ export default function Home() {
       </Head>
       <main>
         <h1 style={titleStyle}>フロントエンドの楽しさ</h1>
+
+        {/* h1タグの幅だけ余白を作る */}
+        <Box height="5vh" />
 
         <Box style={{ position: "relative" }} className="slide">
           {items.map((item, index) => (

@@ -35,7 +35,17 @@ main {
 h1 {
   padding-top: 60px;
   position: absolute;
-  transition: top 1s;
+  transition: top 1s, font-size 1s;
+  color : rgba(255, 255, 255, 0.5);
+  -webkit-text-stroke: 1px white;
+
+  font-size: 2rem;
+}
+@media screen and (min-width: 480px) {
+	/* スマホ */
+	h1{
+		font-size: 3rem;
+	}
 }
 
 .slide{
