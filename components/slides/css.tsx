@@ -9,18 +9,31 @@ export default function CSS() {
       alignItems={"center"}
     >
       <h2>抑えておきたい基礎知識</h2>
+
+      <h3>CSS・UIライブラリ</h3>
       <ul>
         <li>
-          <span>基本的に使用するもの</span>
+          <span>CSSのフレームワーク</span>
           <ul style={{ marginTop: "1rem" }}>
             <li>
-              <span>HTML</span>
+              <span>TailwindCSS</span>
             </li>
             <li>
-              <span>CSS</span>
+              <span>Bootstrap</span>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <span>UIライブラリ</span>
+          <ul style={{ marginTop: "1rem" }}>
+            <li>
+              <span>Material UI (MUI)</span>
             </li>
             <li>
-              <span>JavaScript / TypeScript</span>
+              <span>ChakraUI</span>
+            </li>
+            <li>
+              <span>Mantine</span>
             </li>
           </ul>
         </li>

@@ -1,13 +1,14 @@
 import Basic from "./basic";
 import CSS from "./css";
+import CSS2 from "./css2";
 import Difference from "./difference";
+import Finished from "./finished";
 import Happy from "./happy";
 import Highlights from "./highlights";
 import IntroduceSlide from "./introduceSlide";
 import JS from "./js";
 import JS2 from "./js2";
 import JS3 from "./js3";
-import Slide2 from "./slide2";
 import SlideQR from "./slideQR";
 import TestOtsukare from "./testOtsukare";
 import TitleSlide from "./titleSlide";
@@ -31,7 +32,8 @@ export const slides = [
   <JS2 />,
   <JS3 />,
   <CSS />,
-  <Slide2 />,
+  <CSS2 />,
+  <Finished />,
 ];
 
 export default slides;
