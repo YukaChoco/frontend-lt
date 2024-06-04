@@ -1,3 +1,4 @@
+import Highlights from "./highlights";
 import IntroduceSlide from "./introduceSlide";
 import Slide2 from "./slide2";
 import TestOtsukare from "./testOtsukare";
@@ -7,7 +8,7 @@ export const slides = [
   <TitleSlide />,
   <IntroduceSlide />,
   <TestOtsukare />,
-  <Slide2 />,
+  <Highlights />,
   <Slide2 />,
   <Slide2 />,
   <Slide2 />,

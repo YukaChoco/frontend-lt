@@ -72,6 +72,11 @@ span {
 	}
 }
 
+li {
+  padding-top: 1rem;
+}
+
+
 .slide{
   width: 100%;
   padding: 20px;
