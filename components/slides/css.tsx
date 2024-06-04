@@ -1,6 +1,6 @@
 import { Box, Typography } from "@mui/material";
 
-export default function Basic() {
+export default function CSS() {
   return (
     <Box
       textAlign={"left"}

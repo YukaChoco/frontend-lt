@@ -7,6 +7,8 @@ export default function TestOtsukare() {
         中間テスト
         <br />
         お疲れ様でした！
+        <br />
+        もしくは頑張れ！
       </Typography>
     </Box>
   );
