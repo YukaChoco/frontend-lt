@@ -15,7 +15,7 @@ export default function Highlights() {
           <span>Webフロントとは</span>
         </li>
         <li>
-          <span>モバイルとの違い</span>
+          <span>Webアプリとモバイルアプリの違い</span>
         </li>
         <li>
           <span>私的Webフロントの楽しさ</span>

@@ -49,6 +49,33 @@ h2 {
   text-align: center;
   border-bottom: 1px solid white;
 }
+h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.web-mobile-container {
+  margin: 40px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr;
+  h3 {
+    text-align: center;
+  }
+  ul{
+    padding: 12px;
+    margin: 0px 16px;
+  }
+}
+@media screen and (min-width: 480px) {
+	/* スマホ */
+	.web-mobile-container {
+    grid-template-columns: 1fr 1fr;
+    ul{
+      padding: 12px 20px;
+    }
+	}
+}
 
 .profile-image {
   display: none;
